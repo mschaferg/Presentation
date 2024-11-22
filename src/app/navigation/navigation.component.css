@@ -1,0 +1,14 @@
+.navigation {
+    display: inline;
+    align-items: center;
+}
+
+.button {
+    margin: 10px;
+}
+
+button.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }

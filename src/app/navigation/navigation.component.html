@@ -1,0 +1,4 @@
+<nav class="navigation">
+    <button [class.active]="currentRoute === '/'+route.value"  (click)="handleRouting( route.value )" *ngFor="let route of navigationRoutes" class="button">{{route.name}}</button>
+</nav>
+
