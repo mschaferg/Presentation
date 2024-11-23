@@ -20,13 +20,12 @@ export class NavigationComponent {
 
   navigationRoutes = [
     {name: "Home", value: "landing"},
-    {name: "Projects", value: "projects"},
-    {name: "Skills", value: "skills"},
-    {name: "About", value: "about"}
+    {name: "About", value: "about"},
+    {name: "Current Work", value: "skills"},
+    {name: "Projects", value: "projects"}
   ]
   
   handleRouting( route: string ) {
-    console.log("-----current route-----", this.currentRoute)
     this.router.navigate(['/'+route])
   }
 }
