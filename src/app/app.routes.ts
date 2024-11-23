@@ -12,6 +12,6 @@ export const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: '404', component: Fake404Component},
   { path: '', component: LandingComponent  },
-  { path: '**', redirectTo: 'landing' }, // Wildcard route (for 404)
+  { path: '**', redirectTo: '' }, // Wildcard route (for 404)
 ];
 
