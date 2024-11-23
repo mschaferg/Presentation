@@ -11,7 +11,7 @@ export const routes: Routes = [
   { path: 'skills', component: SkillsComponent },
   { path: 'about', component: AboutComponent },
   { path: '404', component: Fake404Component},
-  { path: '', redirectTo: 'landing', pathMatch: 'full' }, // Default route
+  { path: '', component: LandingComponent  },
   { path: '**', redirectTo: 'landing' }, // Wildcard route (for 404)
 ];
 
