@@ -1,2 +1,3 @@
 <h1>What Would I Say I Do...Here?</h1>
-<img src="../../../assets/YES-CHEF.gif" />
+<img *ngIf="isImageVisible" src="../../../assets/YES-CHEF.gif" />
+<p *ngIf="!isImageVisible">I bet you thought I was gonna leave that gif playing this whole time.</p>

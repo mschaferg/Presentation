@@ -13,7 +13,7 @@ export class LandingComponent {
   constructor(private router: Router) {}
 
   handleClick() {
-    this.router.navigate(['/projects']);
+    this.router.navigate(['/404']);
   }
 
 }
